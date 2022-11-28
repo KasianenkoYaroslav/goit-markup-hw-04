@@ -399,6 +399,11 @@ body{
     margin-bottom: 12px;
     margin-right: auto;
 }
+.social-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .invitation-footer{
     font-family: 'Roboto';
     font-style: normal;
@@ -418,7 +423,6 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background-color: #757575;
 }
 .footer-soc-items{
     width: 44px;
@@ -431,6 +435,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.25);
 }
 .footer-soc-link:hover{
     background-color: var(--btns-links-color);

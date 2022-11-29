@@ -236,9 +236,6 @@ body{
     margin-bottom: 30px;
     display: flex;
 }
-.advantages-item{
-
-}
 .advantage-icon{
     display: flex;
     align-items: center;
@@ -376,6 +373,55 @@ body{
     height: 20px;
     width: 20px;
     fill: #afb1b8;
+}
+.clients-container{
+    width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+.clients-list{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;  
+}
+.clients{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121; 
+    margin-bottom: 50px;
+}
+.clients-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    
+}
+.clients-link:hover{
+    fill: var(--btns-links-color);
+}
+.clients-link:focus{
+    fill: var(--btns-links-color);
+}
+.clients-link:active{
+    fill: var(--btns-links-color);
+}
+.clients-icons{
+    width: 106px;
+    height: 60px;
+    margin: 16px 32px 16px 32px;
 }
 .container-footer{
     display: flex;

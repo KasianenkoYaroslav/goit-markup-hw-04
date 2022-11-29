@@ -105,14 +105,14 @@ body{
     align-items: center;
 }
 .menu:hover{
-    color: var(--btns-links-color)
+    fill: var(--btns-links-color)
 }
 
 .menu:active{
-    color: var(--btns-links-color) 
+    fill: var(--btns-links-color)
 }
 .menu:focus{
-    color: var(--btns-links-color)
+    fill: var(--btns-links-color)
 }
 .list-contacts{
     text-decoration: none;
@@ -138,29 +138,37 @@ body{
     align-items: center;
     margin-left: auto;
     margin-right: 30px;
-    
 }
 .header-contacts-link{
     width: 100%;
     height: 100%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    color: #757575;
 }
 .header-contacts-icons{
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    color: #757575;
+}
+.header-contacts-link:hover{
+    fill: var(--btns-links-color);
+}
+.header-contacts-link:focus{
+    fill: var(--btns-links-color);
+}
+.header-contacts-link:active{
+    fill: var(--btns-links-color);
 }
 .contacts:hover{
-    color: var(--btns-links-color)
+    color: var(--btns-links-color);
 }
 .contacts:focus{
-    color: var(--btns-links-color)
+    color: var(--btns-links-color);
 }
 .contacts:active{
-    color: var(--btns-links-color)
+    color: var(--btns-links-color);
 }
 .hero-section{
     padding-top: 200px;

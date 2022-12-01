@@ -418,11 +418,9 @@ body{
     border-radius: 4px;
     fill: #AFB1B8;
 }
-.clients-link:hover{
-    fill: var(--btns-links-color);
-}
-.clients-link:focus{
-    fill: var(--btns-links-color);
+.clients-link:hover { 
+    fill: var(--btns-links-color); 
+    border-color:var(--btns-links-color);
 }
 .clients-icons{
     width: 106px;
@@ -531,7 +529,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: #4f525a;
 }
 .footer-soc-link:hover{
     background-color: var(--btns-links-color);
@@ -557,11 +555,15 @@ body{
 	padding-right: 15px;
 }
 .portfolio-container-header{
+    border-bottom: 1px solid #EEEEEE;
+}
+.portfolio-section{
     width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; 
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #EEEEEE;
 }
 .list-portfolio-categories{
     text-decoration: none;

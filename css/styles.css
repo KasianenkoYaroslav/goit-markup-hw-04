@@ -556,6 +556,13 @@ body{
     padding-left: 15px;
 	padding-right: 15px;
 }
+.portfolio-container-header{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+}
 .list-portfolio-categories{
     text-decoration: none;
     list-style: none;
@@ -629,7 +636,6 @@ body{
 }
 .project-item:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
 }
 .portfolio-categories-item{
     font-size: 16px;

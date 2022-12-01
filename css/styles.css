@@ -239,11 +239,12 @@ body{
     border-radius: 4px;
     margin-bottom: 30px;
     display: flex;
-}
-.advantage-icon{
-    display: flex;
     align-items: center;
     justify-content: center;
+}
+.advantage-icon{
+    width: 70px;
+    height: 70px;
 }
 .advantages{
     font-size: 14px;

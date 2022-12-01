@@ -105,14 +105,14 @@ body{
     align-items: center;
 }
 .menu:hover{
-    fill: var(--btns-links-color)
+    color: var(--btns-links-color);
 }
 
 .menu:active{
-    fill: var(--btns-links-color)
+    color: var(--btns-links-color);
 }
 .menu:focus{
-    fill: var(--btns-links-color)
+    color: var(--btns-links-color);
 }
 .list-contacts{
     text-decoration: none;
@@ -158,16 +158,10 @@ body{
 .header-contacts-link:focus{
     fill: var(--btns-links-color);
 }
-.header-contacts-link:active{
-    fill: var(--btns-links-color);
-}
 .contacts:hover{
     color: var(--btns-links-color);
 }
 .contacts:focus{
-    color: var(--btns-links-color);
-}
-.contacts:active{
     color: var(--btns-links-color);
 }
 .hero-section{
@@ -228,6 +222,16 @@ body{
 	padding-right: 15px;
 	margin: 0 auto;
 }
+.list-advantages{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+}
 .advantage-bcgrd{
     width: 270px;
     height: 120px;
@@ -260,7 +264,6 @@ body{
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    
     display: flex;
     justify-content: space-between;
     color: var(--article-descr-color)
@@ -369,10 +372,16 @@ body{
 .workers-soc-link:hover .workers-soc-icons{
     fill: #FFFFFF;
 }
+.workers-soc-link:focus{
+    background-color: var(--btns-links-color);
+}
+.workers-soc-link:focus .workers-soc-icons{
+    fill: #FFFFFF;
+}
 .workers-soc-icons{
     height: 20px;
     width: 20px;
-    fill: #afb1b8;
+    fill: #AFB1B8;
 }
 .clients-container{
     width: 1200px;
@@ -407,15 +416,12 @@ body{
     align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    
+    fill: #AFB1B8;
 }
 .clients-link:hover{
     fill: var(--btns-links-color);
 }
 .clients-link:focus{
-    fill: var(--btns-links-color);
-}
-.clients-link:active{
     fill: var(--btns-links-color);
 }
 .clients-icons{
@@ -533,6 +539,12 @@ body{
 .footer-soc-link:hover .workers-soc-icons{
     fill: #FFFFFF;
 }
+.footer-soc-link:focus{
+    background-color: var(--btns-links-color);
+}
+.footer-soc-link:focus .workers-soc-icons{
+    fill: #FFFFFF;
+}
 .footer-soc-icons{
     height: 20px;
     width: 20px;
@@ -614,6 +626,10 @@ body{
 }
 .project-item{
    flex-basis: calc((100% - 60px) / 3);
+}
+.project-item:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 .portfolio-categories-item{
     font-size: 16px;
